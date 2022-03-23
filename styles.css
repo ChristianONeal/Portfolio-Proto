@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#logo {
+  width: 260px;
+  margin-top: 56px;
+}
+
+.navLinks {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  gap: 31px;
+  list-style-type: none;
+  margin-top: 126px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 965px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  width: 965px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 123px;
+}
+
+#aboutMe {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 23.46px;
+}
+
+.horiBar {
+  height: 20px;
+  width: 95%;
+  background: #d20f9e;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridText {
+  max-width: 464px;
+}
+
+.gridImage {
+  width: 464px;
+  height: 464px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+  width: 965px;
+  margin-top: 73px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#flex2 {
+  grid-column: 2;
+  grid-row-start: 1;
+}
+
+#flex6 {
+  grid-column: 2;
+  grid-row-start: 3;
+}
+
+.icons {
+  width: 35px;
+}
+
+footer > p {
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerIcons {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+@media screen and (max-width: 965px) {
+  .layout {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .navbar {
+    width: 90%;
+  }
+
+  #logo {
+    width: 150px;
+  }
+
+  .about {
+    width: 90%;
+  }
+}
